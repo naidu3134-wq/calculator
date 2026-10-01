@@ -23,4 +23,10 @@ public class AppTest {
     void testMultiply() {
         // example quick check or comment
     }
+
+    @Test
+    void TestAdd() {
+        assertEquals(99, app.add(20, 5));
+    }
+    
 }
