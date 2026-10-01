@@ -18,4 +18,9 @@ public class AppTest {
     void testSubstract() {
         assertEquals(15, app.sub(20, 5));
     }
+    
+    @Test
+    void testMultiply() {
+        // example quick check or comment
+    }
 }
